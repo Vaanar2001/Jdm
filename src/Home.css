@@ -1,0 +1,77 @@
+.home_container{
+  width:100%;
+  height:150px;
+  border: 2px solid black;
+  display: flex;
+  background-color: #2a6fb0;
+}
+.Name{
+  margin-left: 10px;
+  height: 50px;
+  margin-top: 10px;
+  text-align: center;
+  padding-top: 5px;
+}
+h2{
+  color: white;
+  font-family: sans-serif;
+  font-size: 50px;
+}
+strong{
+  color: #3498db;
+}
+.dis{
+    border: 1px solid black;
+    width: 50%;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5px;
+}
+.btn-get-started{
+  width: 100px;
+  height: 40px;
+  padding-top: 8px;
+  border:1px solid black;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+.btn-get-started:hover{
+  color: white;
+  background-color: #3498db;
+  border: 2px solid red;
+}
+.room{
+  margin-top : 10px;
+}
+.img-fluid{
+  display: inline-block;
+  height: 500px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#header .animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down {
+   0% {
+     transform: translateY(10px);
+   }
+   100%{
+     transform: translateX(-10px);
+   }
+}
+@keyframes up-down {
+   0% {
+     transform: translateY(10px);
+   }
+   100%{
+     transform: translateX(-10px);
+   }
+}

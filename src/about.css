@@ -1,0 +1,25 @@
+.dealer{
+  text-align: center;
+  padding-top: 5px;
+  margin-top: 20px;
+}
+.partner{
+  border: 1px solid lightgray;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background-color: black;
+  color: white;
+  padding-left: 10px;
+  font-family: sans-serif;
+}
+.name{
+  color: #29bac4;
+}
+.para{
+  border: 1px solid black;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-left: 10px;
+}
